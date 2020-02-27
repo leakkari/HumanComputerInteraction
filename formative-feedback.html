@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Formative Feedback</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.css">
+  <link rel="stylesheet" type="text/css" href="./public/css/stylesheet.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.js">
+
+  <!-- Favicon -->
+  <!-- <link rel="shortcut icon" type="image/png" href="./public/images/favicon.png"/> -->
+
+  <!-- Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.js"></script>
+</head>
+<body>
+
+<div class="ui container fadeMeIn">
+
+<div class="ui pointing menu">
+  <a class="item" href="index.html">
+    Project Proposal
+  </a>
+  <a class="item" href="low-fi">
+    Low-fidelity Prototype
+  </a>
+  <a class="item" href="hi-fi">
+    High-fidelity Prototype
+  </a>
+  <a class="active item">
+    Formative feedback
+  </a>
+  <a class="item" href="alpha-system">
+    Alpha System
+  </a>
+  <a class="item" href="beta-system">
+    Beta System
+  </a>
+</div>
+
+<div class="ui segment">
+    <h1>Testing</h1>
+    <p>Our group was assigned to test for the project DYM. We completed the user testing on 3 test subjects. Each test subject represented one of DYM's personas from their project pitch. The provided script was carefully followed and the tests lasted 15-20min each. Below you will find all relevant documents to the tests and test subjects.</p>
+
+    <a href="./public/files/formative-feedback-documentation.zip" class="ui right labeled icon button" style="margin-bottom: 1em;">
+        <i class="download icon"></i>
+        Download all documentation
+    </a>
+
+    <div class="ui styled fluid accordion">
+        <div class="title">
+            <i class="dropdown icon"></i>
+            Subject #1 - The Hard Worker
+        </div>
+        <div class="content">
+            <a href="./public/pdfs/formative-feedback/pre-test-questionnaire-1.pdf" class="ui button">Pre-test questionnaire</a>
+            <a href="./public/pdfs/formative-feedback/usability-evaluation-1.pdf" class="ui button">Usability Evaluation</a>
+            <a href="./public/pdfs/formative-feedback/post-test-questionnaire-1.pdf" class="ui button">Post-test questionnaire</a>
+            <a href="./public/images/formative-feedback/test-subject-1.zip" class="ui button">Photos</a>
+        </div>
+        <div class="title">
+            <i class="dropdown icon"></i>
+            Subject #2 - The Self-Moderating User
+        </div>
+        <div class="content">
+            <a href="./public/pdfs/formative-feedback/pre-test-questionnaire-2.pdf" class="ui button">Pre-test questionnaire</a>
+            <a href="./public/pdfs/formative-feedback/usability-evaluation-2.pdf" class="ui button">Usability Evaluation</a>
+            <a href="./public/pdfs/formative-feedback/post-test-questionnaire-2.pdf" class="ui button">Post-test questionnaire</a>
+            <a href="./public/images/formative-feedback/test-subject-2.zip" class="ui button">Photos</a>
+        </div>
+        <div class="title">
+            <i class="dropdown icon"></i>
+            Subject #3 - The Mindful User
+        </div>
+        <div class="content">
+            <a href="./public/pdfs/formative-feedback/pre-test-questionnaire-3.pdf" class="ui button">Pre-test questionnaire</a>
+            <a href="./public/pdfs/formative-feedback/usability-evaluation-3.pdf" class="ui button">Usability Evaluation</a>
+            <a href="./public/pdfs/formative-feedback/post-test-questionnaire-3.pdf" class="ui button">Post-test questionnaire</a>
+            <a href="./public/images/formative-feedback/test-subject-3.zip" class="ui button">Photos</a>
+        </div>
+    </div>
+
+    <hr style="margin-top: 2em;">
+    <h1 class="ui header">Results and Analysis</h1>
+    <p>Before beginning our tests, we obtained written consent from all test subjects. After that we had them fill out the pretest questionnaire and had them read the user manual. Following the provided test script, we then began testing the software. Each user attempted to complete all tests and their reactions, comments and suggestions were noted. Below you will find the test results and issues that the test subjects faced.</p>
+
+    <h3 class="ui header">
+        Test #1 Results
+        <div class="sub header"><i>You want to start our application and use it to stop yourself from opening your web browser while you work. How would you add your internet browser of choice to the list of programs to be monitored?</i></div>
+    </h3>
+
+    <!-- See javascript file to edit chart data -->
+    <div style="width: 400px; height: 200px;">
+        <canvas id="test1Chart"></canvas>
+    </div>
+    <h5>Subject #1:</h5>
+    <h5><i>Task completion: Fail</i></h5>
+    <p>The user did not successfully complete the task. It was not clear to them how to add the web browser to the list. They tried to drag and drop the desktop shortcut onto the right pane first, then realized this was not the way to do it. When the user tried to click on "Add more Program", they did not know how to find the program they were looking for or even where to look. The user noted that there should be a auto-generated list of programs that he can choose to add or remove from the list.</p>
+    <h5>Subject #2:</h5>
+    <h5><i>Task completion: Fail</i></h5>
+    <p>The user was not able to succesfully complete the task without needing any hints. The user first had trouble locating where applications were installed on his computer. After giving them a hint about where they were installed, he spent a lot of time finding it between "Program Files" and "Program files x86" directories. Finally figuring out that he had to select the .exe file was confusing at first but he managed to figure it out himself.</p>
+    <h5>Subject #3:</h5>
+    <h5><i>Task completion: Fail</i></h5>
+    <p>User clicked on lock icon. The main menu opened up. User then clicked on ‘Set Notification time on this program’. The Notifications Settings Page confused the user, as she spent quite some time looking at it and reading everything on the screen to be able to understand it. Initially, she was looking for some sort of file picker to pick her web browser. After a while, she noticed the text ‘Current Program’ and so she opened her web browser and waited until it was detected. She clicked on ‘Set and Lock’. She did not understand what was meant by notification time and left it empty.</p>
+
+    <hr class="thin-border">
+    <h3 class="ui header">
+        Test #2 Results
+        <div class="sub header"><i>You now have your web browser in your list of blacklisted programs. How would you “activate” our application so that it turns on?</i></div>
+    </h3>
+
+    <div style="width: 400px; height: 200px;">
+        <canvas id="test2Chart"></canvas>
+    </div>
+
+    <h5>Subject #1:</h5>
+    <h5><i>Task completion: Fail</i></h5>
+    <p>The user did not know how to "activate" the application. They thought it would be activated automatically but then took another look at the manual and found out that he had to enter "0" in the "Notify me after" box. The user found this confusing and said he wished there were two lists, one for whitelisted programs and one for blacklisted programs.</p>
+    <h5>Subject #2: Fail</h5>
+    <h5><i>Task completion:</h5></i>
+    <p>The user failed at executing this task. He did not understand what was meant by activating the application. He thought that he had to add an application to the list and then click on the unlock button.</p>
+    <h5>Subject #3:</h5>
+    <h5><i>Task completion: Fail</i></h5>
+    <p>User did not understand what “activate” application meant and was looking for a ON/OFF toggle.</p>
+
+    <hr class="thin-border">
+    <h3 class="ui header">
+        Test #3 Results
+        <div class="sub header"><i>You want to change the notification time for your internet browser. The notification time is the amount of time you spend using a blacklisted application before a notification appears telling you to get back to work. How would you change the notification time of the internet browser application to 5 minutes?</i></div>
+    </h3>
+
+    <div style="width: 400px; height: 200px;">
+        <canvas id="test3Chart"></canvas>
+    </div>
+
+    <h5>Subject #1:</h5>
+    <h5><i>Task completion: Pass</i></h5>
+    <p>The user started off by clicking the "Lock the computer to this Program" button and first clicked on "firefox.exe" in an attempt to select it. After that the user entered "5" into the notification time box and clicked set a couple times. They said they had clicked it multiple times since they did not know if it worked or not. The task was completed successfully.</p>
+    <h5>Subject #2:</h5>
+    <h5><i>Task completion: Pass</i></h5>
+    <p>The user was succesful at locating where the notification time should be set, entered a time and clicked the set button. However because there was only one app in the list the user did not click on on the application itself in the list and thought that by just inserting a time would work. After realizing that the app still had no notification next to it in the list (which took a while), the user thought of clicking on it first then setting a time.</p>
+    <h5>Subject #3: Pass</h5>
+    <h5><i>Task completion: Pass</h5></i>
+    <p>User was able to find the box to enter the notification time. They entered 5 and clicked set once.</p>
+
+    <hr class="thin-border">
+    <h3 class="ui header">
+        Test #4 Results
+        <div class="sub header"><i>Launch a notification using the “test popup” button in our interface (final implementation will have notifications appear automatically). Observe the popup, and take note of your reaction to seeing it.</i></div>
+    </h3>
+    <h5>Subject #1:</h5>
+    <h5><i>Task completion: Pass</i></h5>
+    <p>The user started by pressing the "Lock the computer to this Program" to get to the "test popup" button. When the popup appeared the user seemed surprised and said it was very big. They said it was hard to read and did not know how to close it. The user pressed the "test popup" button multiples times after that trying to close the popup but it only opened up more. They were unable to find the "Ok" box at the bottom to dismiss the popup.</p>
+    <h5>Subject #2:</h5>
+    <h5><i>Task completion: Pass</i></h5>
+    <p>Locating the test popup button was easy for the user. Once the popup appeared the user was confused at first as the background was black (same color as the text). After scrolling  a bit, he realized that it was the popup. The user thought that this notification would block him from using the browsee but then figured out that it is just an overlay. Closing the popup was a frustrating process for the user as he did not see the continue button at all. He first tried setting the notification time back to 0 and clicking unlock. He ended up with 3 popups on top of each other and gave up frustrated till a hint was given to him. </p>
+    <h5>Subject #3:</h5>
+    <h5><i>Task completion: Pass</i></h5>
+    <p>User clicked "popup test". She was very confused and did not know how to close the popups. She didn’t like the big text and the small dialog was very hard to close. After a hint was given she managed to close the popup.</p>
+
+    <hr class="thin-border">
+    <h3 class="ui header">
+        Test #5 Results
+        <div class="sub header"><i>Back at the main page of the interface, you want to add a new program to the list, but this time you want to add a program that will be “whitelisted”; this is a program that you are allowed to use while our application is activated. Add any other program of your choice to the program list, and set the notification time to none.</i></div>
+    </h3>
+
+    <div style="width: 400px; height: 200px;">
+        <canvas id="test5Chart"></canvas>
+    </div>
+
+    <h5>Subject #1:</h5>
+    <h5><i>Task completion: Fail</i></h5>
+    <p>The test subject tried to add another program with the "add program" button but was unable to find the program they were looking for with the popup. The Observer had to intervene and add the program for the user so they could continue the test. Once the program was added to the list the user set the time to "0".</p>
+    <h5>Subject #2:</h5>
+    <h5><i>Task completion: Pass</i></h5>
+    <p>First the user went through the whole application to find a menu to whitelist apps but could not find one. He ended up at the page where apps were blacklisted and was confused by the no notifications button as he did not know if it was for the whole list or one specific app. Again he forgot to click on the app first till he saw the application status in the list.</p>
+    <h5>Subject #3:</h5>
+    <h5><i>Task completion: Fail</i></h5>
+    <p>User clicked on add program. It was very hard to find the application she wanted to whitelist it, so that took a while. User kept getting frustrated because there was no guidance. Once she found the directory of the program, she didn’t know which file to select. When she finally figured out how to pick the program, she put 0 under set notification time.</p>
+
+    <h2 class="ui header">Post-Test Questionnaire Results</h2>
+
+    <div style="display: flex; flex-wrap: wrap;">
+        <div style="width: 270px; height: 160px;">
+            <canvas id="postTestQ1Chart"></canvas>
+        </div>
+        <div style="width: 270px; height: 160px; ">
+            <canvas id="postTestQ2Chart"></canvas>
+        </div>
+        <div style="width: 270px; height: 160px; ">
+            <canvas id="postTestQ3Chart"></canvas>
+        </div>
+        <div style="width: 270px; height: 160px; ">
+            <canvas id="postTestQ4Chart"></canvas>
+        </div>
+        <div style="width: 270px; height: 160px; ">
+            <canvas id="postTestQ5Chart"></canvas>
+        </div>
+    </div>
+
+    <h2 class="ui header spacing-top">
+        Usability Issues
+        <div class="sub header">Below you will find a list of usability issues found during the above tests. They are sorted by priority and the appropriate heuristics are linked to them.</div>
+    </h2>
+
+    <h3 class="ui header">
+        No feedback received from program while setting notifications
+        <div class="sub header"><i>Related heuristic: Visiblity of system status - Priority: High</i></div>
+    </h3>
+    <p>The most common feedback received when evaluating the system was that the test subjects did not know if setting certain settings actually worked. For example test subject #1 noted that when setting the notification time, he had to click the "set" button multiple times to make sure it was set since he did not receive any feedback and did not know if it worked. As is mentioned in Nielsen's first heuristic, it is important to keep the user informed of the system's state and progress. The lock icon was not changing from one app to the other as it always showed that an app is locked even if no limitations are applied.</p>
+
+    <h3 class="ui header">
+        Function in the program can often lead to confusion
+        <div class="sub header"><i>Related heuristic: Match between system and the real world - Priority: High</i></div>
+    </h3>
+    <p>Titles, regular text, layout issues and ambiguous text caused users to be overall confused while using the app. Some buttons also do not behave like users are expecting like the back button. When setting limitation options to apps, their status is not clearly illustrated in the list confusing users.</p>
+
+    <h3 class="ui header">
+        No way of removing apps from the list and customizing the app
+        <div class="sub header"><i>Related heuristic: User control and freedom - Priority: Medium</i></div>
+    </h3>
+    <p>Some users wanted the option to remove apps from the list but could not find that option. Users felt like the app did not offer enough customization to limit their usage as they wanted to set limits by hours or by minutes. Users did not like that the lock icon could not be moved and some even complained that it obstructed their screen too much and wanted it on the taskbar instead.</p>
+
+    <h3 class="ui header">
+        Inputs are not error checked
+        <div class="sub header"><i>Related heuristic: Error prevention and help users recognize, diagnose, and recover from errors - Priority: High</i></div>
+    </h3>
+    <p>One of the users inserted text when setting the notification time and was able to set it without noticing the wrong input expecting the time to be correct. Another user added a non executable file to the app list again without any error or warning.</p>
+
+    <hr>
+    <h1 class="ui header">
+        Test Plan Critique
+        <div class="sub header">The following suggestions and feedback are for the development to improve their testing procedure and overall application</div>
+    </h1>
+         <p>
+            Since the main goal of this software is to run in the background and only alert the user if he is distracted, the design team could have modified test 4. A better way to test the notifications could have been to ask the user to set a 5 or 10 minute timer and do some other activity until they get "distracted". As many of our test subjects noted, a timer in the software would have been very useful and would follow Nielsen's first heuristic (Visibility of system status).
+        </p>
+        <p>
+            The post test questionnaire question were somewhat confusing and should be formulated differently. For example question 3 was not formulated in a way where it could be answered with agree or disagree. This should be modified for future tests or the answers should be different.
+            There could have also been an additional question in the post-test questionnaire which asked the user if they understood how the program worked. This is important since a user who understands the system he is using will better achieve what he wants with the program. The user could even be asked to play around with the program before any tests are done for him to get a feel for the system and a practical understanding of its main features. The evaluators could also measure how long it takes for the user to feel comfortable using the program, as this ties in with Nielsen's 2nd heuristic (Match between system and the real world).
+        </p>
+        <p>
+            Since navigation was a confusing for our test subjects, another quantitative test measurement that could be added is "how many times the user had to ask for help while navigating the program". This is linked to the usability goal "memorability". This will measure how well the user understands the navigation of the system they are using and if it is easy to learn.
+        </p>
+        <p>
+            It is important to note that test tasks should tell the user what to do and not how to do it. Therefore test task 4 should be modified. Instead of asking a user to specifically press a button, the user should be asked to open a popup. Right now that question belongs more in the post-test questionnaire, it is not exactly a test since everything is controlled except the users opinion on the popup box.
+        </p>
+        <p>
+            There should also be somewhere to measure how many errors the users encountered or how many times they asked for help while performing a task. For these results to be consistent, the solutions for some of the tests will have to be more straightforward or else it will be hard to tell if the user is going the right path and if they have terminated the current task.
+        </p>
+        <p>
+            One change that could be made to the user manual, is to specify how to whitelist an app. It is required for one of the test tasks, but not shown how in the user manual. This would help the users a lot in understanding how whitelisting works in the program. If it is not listed in the manual, then it should be very clear in the program.
+        </p>
+        <p>
+            Lastly, no quantitative measurements were specified for the test tasks. We decided to time the users for each task and suggest that in the future, all test tasks be measured in a quantitative way. The evaluators could measure number of errors the user ran into, the number of times a user asked for help, the total time taken to complete a task, etc.
+        </p>
+
+        <hr>
+        <h1 class="ui header">Design Critique</h1>
+        <p> We have the following suggestions based on the user testing: </p>
+        <ul>
+            <li>Add a timer or reminder notifcations about time remaining</li>
+            <li>Show clear difference between whitelisting and blacklisting apps to limit usage</li>
+            <li>Add confirmation messages when setting or removing notifications</li>
+            <li>Further differentiate between titles and regular text on the app</li>
+            <li>Make the lock movable on screen or make it an icon on the taskbar on windows</li>
+            <li>Fix "whole screen" notification popup to make text more clear and make continue button easy to find</li>
+            <li>Fix layout issues hiding text on some computers</li>
+            <li>Make options less ambiguous by removing "Or" text</li>
+            <li>Change the way apps are added, too hard to add for regular users</li>
+            <li>Check input before let users confirm them and warn them beforehand if mistakes were made</li>
+            <li>Prevent users from getting multiple overlaying popups when clicking the test popup button multiple times in a row</li>
+            <div class="ui accordion">
+                <div class="title" style="padding-top: 0em;">
+                    <i class="dropdown icon"></i>
+                    Screenshot
+                </div>
+                <div class="content">
+                    <img src="./public/images/formative-feedback/popup-bug.png" class="ui large image">
+                </div>
+            </div>
+            <li>Add the option to remove apps from the list</li>
+            <li>Add an option to limit app time by hours</li>
+            <li>Make the lock show the correct status when switching between apps</li>
+            <li>Make the app more motivational as the second user noted that he would continue using the app by skipping through the notification</li>
+        </ul>
+    </div>
+
+<script src="./public/javascripts/formative-feedback.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>Low-fi Prototype</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- CSS -->
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.css">
+        <link rel="stylesheet" type="text/css" href="./public/css/stylesheet.css">
+
+        <!-- Favicon -->
+        <!-- <link rel="shortcut icon" type="image/png" href="./public/images/favicon.png"/> -->
+
+        <!-- JQuery -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+        <!-- Javascript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.js"></script>
+
+</head>
+<body>
+
+<div class="ui container fadeMeIn">
+<div class="ui pointing menu">
+  <a class="item" href="index.html">
+    Project Proposal
+  </a>
+  <a class="active item">
+    Low-fidelity Prototype
+  </a>
+  <a class="item" href="hi-fi">
+    High-fidelity Prototype
+  </a>
+  <a class="item" href="formative-feedback">
+    Formative feedback
+  </a>
+  <a class="item" href="alpha-system">
+    Alpha System
+  </a>
+  <a class="item" href="beta-system">
+    Beta System
+  </a>
+
+</div>
+<div class="ui segment">
+  <h1>Design concepts</h1>
+  <p>Sketches were done using the 10 plus 10 method. We started by defining the main objectives of our app:</p>
+  <ul>
+    <li>Motivating the user to keep reducing his usage by challenging others and providing rewards</li>
+    <li>Keep the user interface as simple and minimalistic as possible</li>
+    <li>Providing an easy to read data visualisation of the user’s usage</li>
+    <li>Allow the user to customize his own goals to reduce phone usage</li>
+    <li>Provide positive reinforcement to the user</li>
+  </ul>
+	  <p>We then decided to do 10 sketches, 3 sketches each and one of the team members did 4. This way we could all contribute equally to the design process, give each one enough sketches to express his ideas and have a good variety of ideas for the first sketching session. These are the following 10 sketches that we came up with:</p>
+
+  <div class="ui small images">
+    <img class="ui image" src="./public/images/sketching1.jpg">
+    <img class="ui image" src="./public/images/sketching2.jpg">
+  </div>
+  <div class="ui styled fluid accordion">
+    <div class="title">
+      <i class="dropdown icon"></i>
+      Sketches
+    </div>
+    <div class="content">
+      <div class="ui medium images">
+        <img class="ui image" src="./public/images/sketch1.jpeg">
+        <img class="ui image" src="./public/images/sketch2.jpg">
+        <img class="ui image" src="./public/images/sketch3.jpg">
+        <img class="ui image" src="./public/images/sketch4.jpg">
+        <img class="ui image" src="./public/images/sketch5.jpg">
+        <img class="ui image" src="./public/images/sketch6.jpg">
+        <img class="ui image" src="./public/images/sketch7.jpg">
+        <img class="ui image" src="./public/images/sketch8.jpg">
+        <img class="ui image" src="./public/images/sketch9.jpg">
+      </div>
+    </div>
+  </div>
+  <p style="padding-top: 1em;">We then discussed all the sketches we came up with and chose the best one from the sketches each one did. The first sketch we liked had a map based game where the user and his friends go through a journey together and the first one to reach the end would win the most points. The only way to advance is to complete the daily usage goals set by the user. The second sketch was mainly an app that allowed the user to view his usage broken up into different categories as well as his friends’ usage. The third app had a reward system where each user had a ring to complete everyday, can challenge friends and look at his usage.</p>
+  <p>Two of the sketches were fairly similar so we decided two combine the best features out of these two. Finally after doing some more sketches with the 2 final designs, we started building the prototypes.</p>
+
+  <h1>Prototypes</h1>
+  <h2>“Close the Ring” Design Concept</p>
+  <object class="pdf-viewer" data="./public/pdfs/prototype1.pdf" type="application/pdf" width="60%"></object>
+
+  <h2>“Play Game” Design Concept</p>
+  <object class="pdf-viewer" data="./public/pdfs/prototype2.pdf" type="application/pdf" width="60%"></object>
+
+  <h1>Usability Goals</h1>
+  <b>Learnability</b>
+  <p>Measures how easily and quickly a user can learn the functionality of the app. Can be measured by observing the user’s ability to achieve a certain task within a determined amount of time.</p>
+  <b>Efficiency and Effectiveness</b>
+  <p>Describes how a user interacts with the app once it is learned. Can be measured by observing the user’s ability to achieve a certain task within a determined amount of time, without encountering major obstacles or system errors.</p>
+  <b>Usefullness</b>
+  <p>Measures how much the system enables the user to achieve their goals. Is the end goal of the user achieved by using our app?</p>
+  <b>Likeability</b>
+  <p>Describes the users’ perceptions and opinions about the system overall.</p>
+
+  <h1>Benchmark tasks</h1>
+  <table class="ui small celled table" style="margin-bottom: 2em;">
+    <thead>
+      <tr>
+        <th>Task</th>
+        <th>Related Usability Goal</th>
+        <th>Success Criteria</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Register for application</td>
+        <td>Goals 1,2</td>
+        <td>User should successfully sign up by filling out the registration form and entering their information details</td>
+      </tr>
+      <tr>
+        <td>Login to application</td>
+        <td>Goals 1,2</td>
+        <td>User login filling out their credientials in the correct fields</td>
+      </tr>
+      <tr>
+        <td>Choose and set an end goal</td>
+        <td>Goal 1</td>
+        <td>User should be able to pick one of the two options and set their end goal successfully by entering the amount of minutes they want to save per day.</td>
+      </tr>
+      <tr>
+        <td>Check today's progress</td>
+        <td>Goals 1, 2, 3</td>
+        <td>User should navigate to the "Ring" page and check their stats</td>
+      </tr>
+      <tr>
+        <td>Invite a friend to a challenge</td>
+        <td>Goals 1, 2</td>
+        <td>User should navigate to the challenge page, click. On the “invite friends” button, invite their friends and click on invite.</td>
+      </tr>
+      <tr>
+        <td>Check if there are any pending invites</td>
+        <td>Goals 1, 2</td>
+        <td>   User should navigate to the challenge page, click. On the “envelope” button and accept/decline. Any pending challenges</td>
+      </tr>
+      <tr>
+        <td>Check last Monday's result</td>
+        <td>Goals 1, 2, 3</td>
+        <td>User should navigate to history page, pick the right monday and date and check their stats for that day.</td>
+      </tr>
+      <tr>
+        <td>Change account password</td>
+        <td>Goals 1, 2</td>
+        <td>User should navigate to the settings page, go to change password, fill in the fields correctly, and click on submit.</td>
+      </tr>
+      <tr>
+        <td>Change end goal</td>
+        <td>Goals 1, 2</td>
+        <td>User should navigate to the settings page, go to change goal, fill in the fields correctly, and click on submit.</td>
+      </tr>
+      <tr>
+        <td>Log out of system</td>
+        <td>Goals 1, 2</td>
+        <td>User should navigate to the settings page and click on logout.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <video width="400" height="300" controls>
+    <source src="./public/videos/video1.mp4" type="video/mp4">
+    Your browser does not support video
+  </video>  
+
+  <video width="400" height="300" controls>
+    <source src="./public/videos/video2.mp4" type="video/mp4">
+    Your browser does not support video
+  </video>
+
+  <h1>Test Materials</h1>
+  <h2>Observer Briefing</h2>
+  <object class="pdf-viewer" data="./public/pdfs/Observer-Briefing.pdf" type="application/pdf" width="80%" style="height: 50vh;"></object>
+
+  <h2>User Introduction</h2>
+  <object class="pdf-viewer" data="./public/pdfs/User-Introduction.pdf" type="application/pdf" width="80%" style="height: 50vh;"></object>
+
+  <h2>Pretest Questionnaire</h2>
+  <object class="pdf-viewer" data="./public/pdfs/Pre-Test-Questionnaire.pdf" type="application/pdf" width="80%" style="height: 50vh;"></object>
+
+  <h2>User or Training documentation</h2>
+  <object class="pdf-viewer" data="./public/pdfs/User-or-Training-Documentation.pdf" type="application/pdf" width="80%" style="height: 50vh;"></object>
+
+  <h2>Test Script</h2>
+  <object class="pdf-viewer" data="./public/pdfs/Test-Script.pdf" type="application/pdf" width="80%" style="height: 50vh;"></object>
+
+  <h2>Data Collection Sheet</h2>
+  <object class="pdf-viewer" data="./public/pdfs/data-collection.pdf" type="application/pdf" width="80%" style="height: 50vh;"></object>
+
+  <h2>Post-Test Questionnaire</h2>
+ <object class="pdf-viewer" data="./public/pdfs/Post-Test-Questionnaire.pdf" type="application/pdf" width="80%" style="height: 50vh;"></object>
+
+  <h2>Student Agreement</h2>
+  <object class="pdf-viewer" data="./public/pdfs/student_agreement.pdf" type="application/pdf" width="80%" style="height: 50vh;"></object>
+
+  <h1>Summary of test results</h1>
+  <p>Our test subjects were all students at McGill. We were limited to this group but still had some valuable insights into changes we could implement into our design. The main concern with our test subjects, was not so much the functionality, but the design.</p>
+
+  <p>Most of our test subjects states that they were confused with the navigation in our app. This was especially noticable in prototype 2. We also noticed that our test subjects were very ambiguous with the time they wanted to save. A good idea would be to add recommendations or examples to show the user what is a realistic amount of time someone wants to save. We will also make it easier for them to change it later in time if the goal they set was too high or too low. 2/3 of our test subjects also told us that they did not understand the idea behind adding friends. Since this is one of the main features of the app and what will make "saving time" more competitive we will need to make this more obvious to the users.</p>
+
+  <p>Between prototype 1 and 2 we found that most of our test subjects preferred the "closing the ring" concept (prototype 1). They found that using the map in prototype 2 would lead to them using their phone mroe, which is not what are app is supposed to be doing.</p>
+
+  <p>Despite some confusion with the navigation of our app, we believe that the overall concept was immediately clear to our test subjects and that they quickly became familiar with the interface.</p>
+
+  <p>To conclude, our testing made us think of new features and design variations that we hadn't thought of before. We hope that in future tests, the user will be able to appreciate the app itself and be less focused on getting around.</p>
+</div>
+
+<script src="./public/javascripts/low-fi.js"></script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+body {
+  background-color: #2A2A2E
+}
+
+div {
+  margin-top: 1rem;
+}
+p {
+  text-align: justify;
+}
+
+.ui.card {
+  width: auto;
+}
+
+div {
+  font-size: 1.2rem !important;
+}
+
+.ui.medium-small.image {
+  width: 200px;
+  height: auto;
+  font-size: 0.92857143rem;
+}
+
+.spacing-top {
+  margin-top: 2em !important;
+}
+
+.fadeMeIn {
+  animation: fade-in-appear ease-in-out 1s 0s;
+  animation-fill-mode: both;
+  animation-play-state: paused;
+}
+
+.pdf-viewer {
+  height: 80vh;
+}
+
+.thin-border {
+  border-top: 0px solid #E7E7E7;
+}
+
+/* Animations */
+@keyframes fade-in-appear {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+

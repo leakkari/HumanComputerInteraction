@@ -1,0 +1,646 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+  	<title>TimeQuest</title>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  	<!-- CSS -->
+  	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.css">
+  	<link rel="stylesheet" type="text/css" href="./public/css/stylesheet.css">
+
+  	<!-- Favicon -->
+  	<!-- <link rel="shortcut icon" type="image/png" href="./public/images/favicon.png"> -->
+  	
+  	<!-- JQuery -->
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  	
+  	<!-- Javascript -->
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.js"></script>
+
+  </head>
+  <body>
+
+
+    <div class="ui container fadeMeIn">
+
+    <div class="ui pointing menu">
+      <a class="active item">
+        Project Proposal
+      </a>
+      <a class="item" href="low-fi">
+        Low-fidelity Prototype
+      </a>
+      <a class="item" href="hi-fi">
+        High-fidelity Prototype
+      </a>
+      <a class="item" href="formative-feedback">
+        Formative feedback
+      </a>
+      <a class="item" href="alpha-system">
+        Alpha System
+      </a>
+      <a class="item" href="beta-system">
+        Beta System
+      </a>
+
+    </div>
+    <div class="ui segment">
+
+      <h1>Observations</h1>
+      <div>
+        <img class="ui small left floated image" src="./public/images/IMG_9142.jpeg">
+        <h5>School Library</h5>
+        <i>18/09/2019 11h AM - Trottier 5th Floor</i>
+        <p>A student had her laptop open and was doing school work. As we can see in the photo, she was coding. While she was working, she started getting frustrated, as it appeared that she was stuck on a problem or on a line of code and couldn’t continue. She tried many solutions as we could see her writing some lines, running her code, erasing it and trying again. After a few minutes of frustration, she picked up her phone and opened facebook. Instead of asking for help or trying to debug, her first instinct was to pick up the phone and go on social media. 
+        Studies have shown that using social media releases dopamine and oxytocin. When these two are released, especially oxytocin, they have a lot of positive effects on the body: lowered stress levels, feelings of love, trust and empathy. When the student logged into her facebook account, we could see how it affected her as her shoulders started relaxing. After about 10 minutes, she put down her phone and went back to her assignment.</p>
+      </div>
+      <div>
+        <h5>School Library</h5>
+        <img class="ui small right floated image" src="./public/images/IMG_9151.jpeg">
+        <i>18/09/2019 19h05 - Trottier 5th Floor</i>
+        <p>A student was studying on the Trottier computers. He had his physics notes open and was doing a lot of practice problems. He was also listening to music while working. After a while, he picked up his phone. We saw that he picked it up to change the music he was listening to. However, instead of putting the phone down and continue studying, the student opened facebook. He started scrolling down on his feed for a few minutes. Then he started watching videos, scrolling down after each video to find the next one. 25 minutes later, he was still watching videos. 
+        We see here that the student originally picked up his phone with a very specific task in mind: Change the song he was listening to. However, picking up the phone made him open his social media account and waste about 25-30 minutes. This shows how easy it is to lose track of time when we’re on social media.
+        </p>
+      </div>
+      <div>
+        <h5>People walking on the street</h5>
+        <i>17/09/2019 9h16 - Corner of Sherbrooke St. & University St.</i>
+        <p>The entire class went outside to observe how people use their cell phones when walking on the street . What we observed was that when walking, most people used their phones to listen to music. Some were holding the phones in their hands even when they were not actively using it (mostly women), and others simply had their phones in their pockets. The most common behaviour we saw was that people always picked up their phones when they stopped moving, like when waiting at a red light, for example or getting to the bus stop and waiting for the bus. As soon as they stopped moving, most people pulled out their phones and unlocked it, even if they had no specific goal or task in mind. This shows how reaching for our smartphone has become a compulsive behaviour, an action that we subconsciously make without even thinking about it, even when we don’t need it.</p>
+      </div>
+      <div>
+        <h5>Coffee Place</h5>
+        <i>17/09/2019 15h23 - Milton B</i>
+        <p>A guy walked into the coffee place, ordered a coffee and sat down at a table. It was clear that he was a student from the McGill Hoodie he was wearing. He sat down at a table for four and he was clearly waiting for his friends. As soon as he sat down, he picked up his phone. We could see him texting at first, and then logging into his social media accounts such as facebook and instagram. Whenever he made eye contact with someone, he would quickly glance back down at his phone to avoid it. 
+        This shows how people use their smartphones to avoid awkward social situations, or when they’re feeling lonely. This observation shows that people also use their phones as a “security blanket” to relieve feelings of anxiety.
+        </p>
+      </div>
+
+      <h1>Problem Statement</h1>
+      <p>After observing many users, one pattern we saw is that people have trouble staying off their phones for a long time.</p>
+      <p>When doing an assignment or filling up a job application for example, as soon as the task starts getting boring or frustrating, people reach out for their phones.</p>
+      <p>When people are in an awkward situation, waiting alone for their friends at a restaurant, or avoiding eye contact, people reach out for their phones.</p>
+      <p>In his article, Harris said that “the average person checks their phone 150 times a day. Why do we do this? Are we making 150 conscious choices?”</p>
+      <p>The second thing we observed is that once people start using their phones, very few put the phone away after a few minutes. Instead, we see a common pattern where people start scrolling down endlessly or opening new apps and watching new videos.</p>
+      <p>Are users aware of how much time they’re spending on their phone? Most smartphones nowadays track your usage or your “screen time”. But how effective is it? When people pick up their phones, they don’t plan on scrolling down for hours. They usually mean to use it to complete one specific task that shouldn’t take more than a minute. However, they end up getting distracted and sidetracked.</p>
+      <q><strong>Instead, imagine if technology companies empowered you to consciously bound your experience to align with what would be “time well spent” for you. Not just bounding the quantity of time you spend, but the qualities of what would be “time well spent". </strong></q> <small>[Harris]</small>
+
+
+      <h1>Personas</h1>
+        <div class="ui styled fluid accordion">
+          <div class="title">
+            <i class="dropdown icon"></i>
+            List Distinguishing Behaviors
+          </div>
+          <div class="content">
+            <table class="ui celled table">
+            <tbody>
+              <tr>
+                <td>Listen to music</td>
+                <td>Get directions</td>
+              </tr>
+              <tr>
+                <td>Reply to a text</td>
+                <td>Send an email</td>
+              </tr>
+              <tr>
+                <td>Talk on the phone</td>
+                <td>Send a picture</td>
+              </tr>
+              <tr>
+                <td>Listen to a podcast</td>
+                <td>Watch videos</td>
+              </tr>
+              <tr>
+                <td>Look up places to eat/go out</td>
+                <td>Take pictures</td>
+              </tr>
+              <tr>
+                <td>Take videos</td>
+                <td>Check the time</td>
+              </tr>
+              <tr>
+                <td>Check bus schedule</td>
+                <td>Play games</td>
+              </tr>
+              <tr>
+                <td>Watch videos</td>
+                <td>Read articles</td>
+              </tr>
+              <tr>
+                <td>Read books</td>
+                <td>Check mycourses</td>
+              </tr>
+              <tr>
+                <td>Check the weather</td>
+                <td>Go on social media</td>
+              </tr>
+              <tr>
+                <td>Browse the web</td>
+                <td>Lookup calendar/schedule</td>
+              </tr>
+              <tr>
+                <td>Take notes</td>
+                <td>Set an alarm</td>
+              </tr>
+              <tr>
+                <td>Set a reminder</td>
+                <td>Use the calculator</td>
+              </tr>
+              <tr>
+                <td>Pay bills</td>
+                <td>Use phone for online shopping</td>
+              </tr>
+              <tr>
+                <td>Check bank account</td>
+                <td>Order food</td>
+              </tr>
+              <tr>
+                <td>Save contact</td>
+                <td>Read news</td>
+              </tr>
+              <tr>
+                <td>Video Call</td>
+                <td>Turn volume up/down</td>
+              </tr>
+              <tr>
+                <td>Put phone on silent</td>
+                <td>Use phone as speaker</td>
+              </tr>
+              <tr>
+                <td>Put a case</td>
+                <td>Unlock/Lock the phone</td>
+              </tr>
+              <tr>
+                <td>Get notifications</td>
+                <td>Charge your phone</td>
+              </tr>
+              <tr>
+                <td>Use voice assistant (Siri/Google assistant/ Bixby/ Alexa)</td>
+                <td>Take phone out of your pocket/purse</td>
+              </tr>
+              <tr>
+                <td>Rearrange apps</td>
+                <td>Hold the phone in your hand without using it</td>
+              </tr>
+              <tr>
+                <td>Zoom in using the camera</td>
+                <td>Control home gadgets (lights, heater, etc.)</td>
+              </tr>
+              <tr>
+                <td>Turn on/off the flashlight</td>
+                <td>Open an app</td>
+              </tr>
+              <tr>
+                <td>Fill in documents</td>
+                <td>Download an app</td>
+              </tr>
+              <tr>
+                <td>Sign papers</td>
+                <td>Take pictures of class notes</td>
+              </tr>
+              <tr>
+                <td>Communicate with people at work</td>
+                <td>Unlock car</td>
+              </tr>
+              <tr>
+                <td>Record a voice message</td>
+                <td>Check other devices location and battery life</td>
+              </tr>
+              <tr>
+                <td>Connect to wifi</td>
+                <td>Edit a picture/video</td>
+              </tr>
+              <tr>
+                <td>Call a taxi</td>
+                <td>Get an uber</td>
+              </tr>
+              <tr>
+                <td>Look at pictures/videos</td>
+                <td>Send money to others</td>
+              </tr>
+              <tr>
+                <td>Use tap to pay </td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+          </div>
+          <div class="title">
+            <i class="dropdown icon"></i>
+            Eliminate or group duplicate and similar tasks
+          </div>
+          <div class="content">
+            <table class="ui celled table">
+            <tbody>
+              <tr>
+                <td><strong>Find out how to get to a location : cab/public transport</strong></td>
+                <td><strong>Get directions</strong></td>
+              </tr>
+              <tr>
+                <td>Check bus schedule</td>
+                <td>Get Directions from an app</td>
+              </tr>
+              <tr>
+                <td>Call a taxi</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Get an Uber</td>
+                <td><strong>Text someone</strong></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>Send a snap</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>Reply to a text</td>
+              </tr>
+              <tr>
+                <td><strong>Look up a place</strong></td>
+                <td><strong>Send an email</strong></td>
+              </tr>
+              <tr>
+                <td>Lookup a place to eat/go out</td>
+                <td>Send an email</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>Watch Videos</strong></td>
+                <td><strong>Talk on the phone</strong></td>
+              </tr>
+              <tr>
+                <td>Listen to podcast</td>
+                <td>Video Call</td>
+              </tr>
+              <tr>
+                <td>Watch videos</td>
+                <td>Phone call</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>Play games</strong></td>
+                <td><strong>Record a voice message</strong></td>
+              </tr>
+              <tr>
+                <td>Play games</td>
+                <td>Record a voice message</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>Go on social media</strong></td>
+                <td><strong>Use the camera</strong></td>
+              </tr>
+              <tr>
+                <td>Go on Facebook</td>
+                <td>Take pictures</td>
+              </tr>
+              <tr>
+                <td>Watch friends’ stories on instagram</td>
+                <td>Take videos</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>Zoom in using the camera</td>
+              </tr>
+              <tr>
+                <td><strong>Use phone phone to read books, news or articles</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Read books</td>
+                <td><strong>Edit media</strong></td>
+              </tr>
+              <tr>
+                <td>Read articles</td>
+                <td>Edit picture/video</td>
+              </tr>
+              <tr>
+                <td>Read news</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td><strong>Purchase items online</strong></td>
+              </tr>
+              <tr>
+                <td><strong>Look at pictures/videos</strong></td>
+                <td>Use phone for online shopping</td>
+              </tr>
+              <tr>
+                <td>Look at pictures/videos</td>
+                <td>Order food</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>Use phone as speaker</strong></td>
+                <td><strong>Check the time</strong></td>
+              </tr>
+              <tr>
+                <td>Use phone as speaker</td>
+                <td>Check the times</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>Manage Schedule</strong></td>
+                <td><strong>Hold your phone in your hand without using it</strong></td>
+              </tr>
+              <tr>
+                <td>Lookup calendar/schedule</td>
+                <td>Hold the phone in your hand without using it</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>Edit phone settings</strong></td>
+                <td><strong>Manage Bank Account</strong></td>
+              </tr>
+              <tr>
+                <td>Put phone on silent</td>
+                <td>Pay bills</td>
+              </tr>
+              <tr>
+                <td>Turn voluem up/down</td>
+                <td>Send money to others</td>
+              </tr>
+              <tr>
+                <td>Rearrange apps</td>
+                <td>Check bank account</td>
+              </tr>
+              <tr>
+                <td>Unlock/Lock the phone</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Connect to wifi</td>
+                <td><strong>Manage documents</strong></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>Fill in documents</td>
+              </tr>
+              <tr>
+                <td><strong>Take notes</strong></td>
+                <td>Sign papers</td>
+              </tr>
+              <tr>
+                <td>Take notes</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Take pictures of class notes</td>
+                <td><strong>Take phone out of your pocket/purse</strong></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>Take phone out of your pocket/purse</td>
+              </tr>
+              <tr>
+                <td><strong>Use phone for utility</strong></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Check the weather</td>
+                <td><strong>Charge your phone</strong></td>
+              </tr>
+              <tr>
+                <td>Set an alarm</td>
+                <td>Charge your phone</td>
+              </tr>
+              <tr>
+                <td>Use the calculator</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Set a reminder</td>
+                <td><strong>Use Voice Assistant</strong></td>
+              </tr>
+              <tr>
+                <td>Check other devices location and batter life</td>
+                <td>Use voice assistant (Siri/Google assistant/ Bixby/ Alexa)</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>Control home gadgets (lights, heater)</strong></td>
+                <td><strong>Use Flashlight</strong></td>
+              </tr>
+              <tr>
+                <td>Control home gadgets(lights, heater, etc.)</td>
+                <td>Turn on/off the flashlight</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><strong>Pay with phone</strong></td>
+                <td><strong>Use phone for health and fitness</strong></td>
+              </tr>
+              <tr>
+                <td>Use tap to pay</td>
+                <td>Track health data</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>Follow workouts</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>Monitor heart rate and blood pressure</td>
+              </tr>
+            </tbody>
+          </table>
+          </div>
+          <div class="title">
+            <i class="dropdown icon"></i>
+            Draft Performers for each task
+          </div>
+          <div class="content">
+            <img src="./public/images/draft-performers.png">
+            <img class="ui big image" src="./public/images/social-connectedness.png">
+            <img class="ui big image" src="./public/images/time-awareness.png">
+            <img class="ui big image" src="./public/images/compulsion.png">
+          </div>
+        </div>
+
+      <div class="ui three column grid">
+        <div class="row">
+
+          <div class="column">
+            <div class="ui card">
+              <div class="image">
+                <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 776.471 713.235"><defs><style>.cls-1{fill:#9c5639;}.cls-1,.cls-10,.cls-11,.cls-2,.cls-3,.cls-4,.cls-5,.cls-6,.cls-7,.cls-8,.cls-9{fill-rule:evenodd;}.cls-2{fill:#f4b67e;}.cls-3{fill:#a95c40;}.cls-4{fill:#934e34;}.cls-5{fill:#f5bf84;}.cls-6{fill:#f8ca97;}.cls-7{fill:#be9140;}.cls-8{fill:#3e3c3b;}.cls-9{fill:#d6825c;}.cls-10{fill:#e5b17d;}.cls-11{fill:#d87c5b;}</style></defs><title>avatar1</title><path class="cls-1" d="M314.045,610.413c-3.738-2.8-87.273-42.134-87.273-42.134-37.188,12.27-45.528,95.771-49.314,144.956h88.851Z"/><path class="cls-1" d="M462.089,610.413c3.741-2.8,87.276-42.134,87.276-42.134,37.185,12.27,45.527,95.771,49.311,144.956H509.828Z"/><path class="cls-2" d="M388.067,476.751h-39.21v24.755c.022,15.386-2.54,12.188-16.909,20.183,0,0-13.86,11.367-18.08,12.715,17.425,56.1,30.024,128.229,64.085,178.831h20.228c34.063-50.6,46.66-122.736,64.087-178.831-4.22-1.348-18.082-12.715-18.082-12.715-14.369-8-16.931-4.8-16.908-20.183V476.751Z"/><path class="cls-3" d="M331.931,521.893c-20.9,9.526-97.111,39.385-105.646,46.777,6.928,15.153,17.426,77.528,26.507,144.565H523.343c9.081-67.037,19.581-129.412,26.506-144.565-8.534-7.392-84.742-37.251-105.644-46.777,26.754,20.757-41.624,78.488-56.138,95.67L359.1,585.4C356.888,579.652,306.654,541.5,331.931,521.893Z"/><polygon class="cls-4" points="381.757 614.702 388.07 617.813 394.377 614.702 394.377 713.235 381.757 713.235 381.757 614.702"/><path class="cls-5" d="M492.981,297.659c-5.613,29.213,13.3,53.545,42.255,58.787s56.946-10.6,62.544-39.815-13.294-57.152-42.241-62.39S498.586,268.431,492.981,297.659Z"/><path class="cls-5" d="M291,297.659c5.61,29.213-13.3,53.545-42.25,58.787S191.8,345.85,186.2,316.631s13.3-57.152,42.247-62.39S285.4,268.431,291,297.659Z"/><path class="cls-6" d="M536.447,112.231C508.184,73.836,464.11,48.622,417.313,46.762c-.01,0-.921-.039-2.429-.1l.055-1.829s-11.343.449-23.058.918c-11.715-.469-23.057-.918-23.057-.918l.047,1.829c-1.5.06-2.417.1-2.417.1-46.8,1.86-90.876,27.074-119.136,65.469-28.286,38.435-32.045,86.842-29.818,133.193,5.733,119.107,16.385,252.507,174.886,253.832,158.979,1.332,168.15-135.57,173.876-253.832C568.484,199.073,564.733,150.666,536.447,112.231Z"/><path class="cls-7" d="M562.193,307.976c0-4.616,24.877-127.775,18.907-180.168s-40.288-54.863-47.746-55.915-11.191-3.226-11.191-3.226S491.574,44.642,430.4,29.55,282.707,60.2,235.463,34.281c-22.7,23.9-9.481,70.182-9.481,70.182s-17.159,6.349-21.634,29.845,17.427,174.65,17.427,174.65,9.433-116.544,23.6-132.934c0,0,100.92,18.47,283.307-50.654C565.679,111.35,552.91,263.745,562.193,307.976Z"/><path class="cls-8" d="M303.305,327.99a13.555,13.555,0,1,0-13.555-13.553A13.579,13.579,0,0,0,303.305,327.99Z"/><path class="cls-8" d="M480.456,327.99A13.554,13.554,0,1,0,466.9,314.436,13.58,13.58,0,0,0,480.456,327.99Z"/><path class="cls-7" d="M260.247,272.4c-4.385-7.509,19.1-11.051,42.917-10.877,39.943.289,61.311,19.813,42.115,18.977C330.94,279.873,261.53,274.6,260.247,272.4Z"/><path class="cls-7" d="M523.478,274.1c4.531-7.419-18.881-11.427-42.7-11.725-39.941-.5-61.689,18.592-42.483,18.14C452.65,280.173,522.149,276.275,523.478,274.1Z"/><path class="cls-9" d="M443.319,406.761c-8.278,46.568-83.331,46.568-91.609,0C376.589,439.972,418.442,439.972,443.319,406.761Z"/><path class="cls-10" d="M366.915,382.642c-.16-.052-.188-.183-.047-.41a2.7,2.7,0,0,1,1.1-1.975c5.568-10.718,16.522-41.982,21.54-76.369,5.5.34-5.453,58.526-10.17,72.415a100.733,100.733,0,0,1,16.855-1.315c16.2,0,29.329,3.244,29.329,7.244s-13.131,7.244-29.329,7.244C380.557,389.476,367.776,386.452,366.915,382.642Z"/><path class="cls-11" d="M313.422,568.093c30.718,38.965,76.365,52.345,74.645,49.47s-44.962-62.089-48.235-78.449,6.692-25.467,6.692-25.467c3.366-3.978,2.333-12.805,2.333-18.66C303.5,493.809,282.705,529.125,313.422,568.093Z"/><path class="cls-11" d="M462.711,568.093c-30.717,38.965-76.363,52.345-74.644,49.47s44.963-62.089,48.235-78.449-6.691-25.467-6.691-25.467c-3.367-3.978-2.333-12.805-2.333-18.66C472.637,493.809,493.431,529.125,462.711,568.093Z"/></svg>
+              </div>
+              <div class="content">
+                <span class="header">Marc-Antoine</span>
+                <div class="meta">
+                  <span class="date">
+                  <p>Age: 21</p>
+                  <p>Occupation: Electrical Engineering Student at McGill</p>
+                  <p>Personality: social, active on social media, athlete, personable, funny</p>
+                  </span>
+                </div>
+                <div class="description">
+                  <b>Goal</b>
+                  <p>When studying, Marc-Antoine often finds himself getting distracted by his phone, especially when he’s doing a long assignment task. When he picks up his phone, he often loses track of time and ends up using it longer than he originally intended to. His goal is to decrease his smartphone usage, especially when he’s studying or when he’s in class.</p>
+                </div>
+              </div>
+              <div class="extra content">
+                <span>
+                  <b>Pain points</b>
+                  <ul>
+                    <li>Using apps that put restrictions can be frustrating, so telling Marc that he can’t access his instagram account anymore only makes him want to access it even more.</li>
+                    <li>Apps that track screen time and phone usage give a lot of information and have too many steps to enable restrictions. Why can’t it be simpler?</li>
+                    <li>When he uses his phone to do one specific task, such as call text his friend, he often finds himself getting distracted and going on social media.</li>
+                  </ul>
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="column">
+            <div class="ui card">
+              <div class="image">
+                <svg id="a6e090c3-9f08-4f6d-b258-25920f0e11ba" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 776.471 713.235">
+                  <defs><style>.f0a6ed3a-9127-47d0-aefc-c7124981038d{fill:#923f22;}.a1979483-b65f-41d0-8294-f4fce8f2ba09,.a543007a-07c6-44b1-bc0e-0002a1ce96f2,.a8e06eac-48be-4b5b-88e5-1c50ddfa2e4d,.b03a2cbf-74ac-472d-8d6d-739f39145517,.b5bf96aa-14ed-4b86-99ad-21feb7c1850d,.b9fee384-107c-49f5-9c74-332a95f1a514,.edbda158-f94e-4742-9bb1-4f675ce2540c,.f0a6ed3a-9127-47d0-aefc-c7124981038d,.f28cdcef-49e3-468b-a261-6aacc67629d7,.f423b328-1c2a-44ac-bc2d-dfda264643fa,.f49ac8a1-1d01-47fa-9933-b256b08111e3,.feb3acad-0aa1-4f14-bec2-324e34cd611e{fill-rule:evenodd;}.b5bf96aa-14ed-4b86-99ad-21feb7c1850d{fill:#a9bcc7;}.f49ac8a1-1d01-47fa-9933-b256b08111e3{fill:#99c0d4;}.a1979483-b65f-41d0-8294-f4fce8f2ba09{fill:#f4b67e;}.edbda158-f94e-4742-9bb1-4f675ce2540c{fill:#b4cbd7;}.b03a2cbf-74ac-472d-8d6d-739f39145517{fill:#f5bf84;}.f423b328-1c2a-44ac-bc2d-dfda264643fa{fill:#f8ca97;}.a8e06eac-48be-4b5b-88e5-1c50ddfa2e4d{fill:#acc4d0;}.a543007a-07c6-44b1-bc0e-0002a1ce96f2{fill:#c9e1ed;}.f28cdcef-49e3-468b-a261-6aacc67629d7{fill:#3e3c3b;}.b9fee384-107c-49f5-9c74-332a95f1a514{fill:#d6825c;}.feb3acad-0aa1-4f14-bec2-324e34cd611e{fill:#e5b17d;}</style></defs><title>avatar2</title><path class="f0a6ed3a-9127-47d0-aefc-c7124981038d" d="M208.927,264.939c9.262,93.883-.5,275.091,71.43,324.121,109.552,74.669,79.784,80.08,182.514,3.449,102.7-76.607,89.287-201.7,88.662-338.975Z"/><path class="f0a6ed3a-9127-47d0-aefc-c7124981038d" d="M468.422,73.976c215.325-43.136,76.915,450.493,53.395,554.053-10.2,44.944-25.127,33.491-63.991-31.777,0,0,74.661-185.6,79.794-290.872s-31.5-141.5-53.855-181.245S468.422,73.976,468.422,73.976Z"/><path class="f0a6ed3a-9127-47d0-aefc-c7124981038d" d="M490.936,79.2c6.694,59.672-8.983,66.927-56.457,98.766s-68,31.842-60.3,27.942,44.264-68.227,44.264-68.227S369.045,177.969,319,198.11s-68,12.347-68,12.347,44.264-58.48,38.491-53.933-48.116,32.488-53.888,45.485-18.1,71.416-11.046,135.739c4.726,43.087,90.31,177.867,91.808,241.211.753,31.95-45.693,78.993-59.369,63.017-55.5-64.831-65.089-453.989-62.463-472.458,6.739-47.339,33.106-81.811,62.583-105.6C320.215,12.992,483.667,14.416,490.936,79.2Z"/><path class="b5bf96aa-14ed-4b86-99ad-21feb7c1850d" d="M453.51,608.416c3.741-2.84,84.9-64.936,84.9-64.936,37.2,12.431,47.924,119.275,51.71,169.1H501.258Z"/><path class="f49ac8a1-1d01-47fa-9933-b256b08111e3" d="M312.4,553.045c.856-6.848,5.895-52.975,5.895-52.975l120.679-.821-1.64,37.972Z"/><path class="a1979483-b65f-41d0-8294-f4fce8f2ba09" d="M377.346,473.008h-39.22v25.08c.025,15.585-2.538,12.345-16.912,20.444,0,0-13.862,11.517-18.083,12.882,17.428,56.827,30.029,129.9,64.1,181.166h20.235c34.068-51.262,46.668-124.339,64.1-181.166-4.221-1.365-18.084-12.882-18.084-12.882-14.374-8.1-16.937-4.859-16.912-20.444v-25.08Z"/><path class="b5bf96aa-14ed-4b86-99ad-21feb7c1850d" d="M303.31,608.416c-3.742-2.84-84.9-64.936-84.9-64.936-37.193,12.431-47.925,119.275-51.71,169.1h88.867Z"/><path class="edbda158-f94e-4742-9bb1-4f675ce2540c" d="M353.047,574.55c-34.521-12.838-38.84-50.316-31.849-55.811-20.906,9.654-97.807,19.193-106.343,26.684,6.928,15.351,18.106,99.245,27.186,167.157H514.778c9.081-67.912,20.258-151.806,27.187-167.157-8.536-7.491-85.437-17.03-106.343-26.684,6.991,5.5,2.671,42.973-31.849,55.811l0,0-27.235,93.76-23.5-93.76Z"/><path class="b03a2cbf-74ac-472d-8d6d-739f39145517" d="M262.072,297.4c6.5,29.592-6.419,54.242-28.549,59.554s-45.054-10.735-51.549-40.334,6.155-57.9,28.281-63.207S255.573,267.786,262.072,297.4Z"/><path class="b03a2cbf-74ac-472d-8d6d-739f39145517" d="M501.256,297.4c-6.5,29.592,6.419,54.242,28.546,59.554s45.057-10.735,51.552-40.334-6.155-57.9-28.28-63.207S507.756,267.786,501.256,297.4Z"/><path class="f423b328-1c2a-44ac-bc2d-dfda264643fa" d="M381.664,36.36l-.5.022c-11.717-.475-23.064-.931-23.064-.931l.05,1.854c-1.5.061-2.42.1-2.42.1-46.814,1.885-90.892,27.425-119.161,66.322-28.292,38.936-32.051,87.975-29.823,134.932C212.48,359.325,279.209,494.8,381.664,495.807c102.455-1,169.185-136.482,174.919-257.146,2.228-46.957-1.53-96-29.824-134.932-28.266-38.9-72.344-64.437-119.157-66.322,0,0-.916-.041-2.421-.1l.05-1.854s-11.347.456-23.064.931Z"/><path class="f0a6ed3a-9127-47d0-aefc-c7124981038d" d="M454.477,83.111c-1.4,6.631-.151,42.155,40.206,96.6S538.158,238.9,538.158,238.9c11.485-20.2,7.224-29.926,18.613-4.564,0,0,10.374-45.629.087-88.247S533.6,87.406,515.764,80.224,454.477,83.111,454.477,83.111Z"/><path class="f0a6ed3a-9127-47d0-aefc-c7124981038d" d="M229.6,198.175c-7.014,8.049-33.808-29.522-28.894,16.376s14.352,99.633,27.829,135.093C222.013,305.251,210.255,253.411,229.6,198.175Z"/><path class="f0a6ed3a-9127-47d0-aefc-c7124981038d" d="M548.444,243.164c1.835-31.111,7.308-106.414-.413-125.8-22.273-55.911-63.066-78.553-131.549-85.484-21.034-2.129,10.857,33.767,10.857,33.767C484.022,146.959,455.988,209.227,548.444,243.164Z"/><path class="f0a6ed3a-9127-47d0-aefc-c7124981038d" d="M472.124,100.021c-157.879,23.331-136.469,160.7-262.042,140.622-7.25-1.161-15.782-39.679-15.782-39.679s13.616-63.8,38.218-100.422,51.98-46.1,79.475-57.532,100.732-19.92,113.2-3.777Z"/><polygon class="a8e06eac-48be-4b5b-88e5-1c50ddfa2e4d" points="346.671 553.147 366.451 560.679 362.049 610.483 335.921 578.834 346.671 553.147"/><polygon class="a543007a-07c6-44b1-bc0e-0002a1ce96f2" points="300.044 518.976 318.299 500.07 366.451 560.679 320.4 601.674 300.044 518.976"/><polygon class="a8e06eac-48be-4b5b-88e5-1c50ddfa2e4d" points="410.604 552.326 390.823 559.86 393.985 608.257 421.354 578.013 410.604 552.326"/><polygon class="a543007a-07c6-44b1-bc0e-0002a1ce96f2" points="457.23 518.156 438.978 499.249 390.823 559.86 436.874 600.853 457.23 518.156"/><path class="edbda158-f94e-4742-9bb1-4f675ce2540c" d="M233.666,539.088c-9.515,2.233-16.554,4.354-18.811,6.335,42.458,81.643-20.231,114.4,2.877,167.157H539.088c23.108-52.758-39.582-85.514,2.877-167.157-2.257-1.981-9.3-4.1-18.811-6.335-12.216,63.08-81.2,143.093-147.436,143.141C309.384,682.276,245.8,602.268,233.666,539.088Z"/><path class="f28cdcef-49e3-468b-a261-6aacc67629d7" d="M309.275,320.134A13.733,13.733,0,1,0,295.716,306.4,13.669,13.669,0,0,0,309.275,320.134Z"/><path class="f28cdcef-49e3-468b-a261-6aacc67629d7" d="M462.155,320.134A13.734,13.734,0,1,0,448.6,306.4,13.669,13.669,0,0,0,462.155,320.134Z"/><path class="b9fee384-107c-49f5-9c74-332a95f1a514" d="M434.037,400.406c-8.279,47.179-83.347,47.179-91.626,0C367.3,434.051,409.154,434.051,434.037,400.406Z"/><path class="feb3acad-0aa1-4f14-bec2-324e34cd611e" d="M357.619,375.973c-.161-.051-.188-.186-.048-.416a2.751,2.751,0,0,1,1.1-2c5.568-10.858,16.524-42.53,21.544-77.366,5.5.344-5.454,59.293-10.171,73.361a99.448,99.448,0,0,1,16.857-1.334c16.2,0,29.337,3.288,29.337,7.34s-13.135,7.338-29.337,7.338C371.26,382.9,358.48,379.832,357.619,375.973Z"/><path class="f0a6ed3a-9127-47d0-aefc-c7124981038d" d="M421.712,271.222c-8.031,3.373,5.319-18.669,44.8-19.541,46.021-1.017,60.024,21.4,41.889,14.963C469.281,252.757,434.449,265.874,421.712,271.222Z"/><path class="f0a6ed3a-9127-47d0-aefc-c7124981038d" d="M349.718,271.222c8.029,3.373-5.321-18.669-44.8-19.541-46.021-1.015-60.021,21.4-41.89,14.966C302.147,252.758,336.982,265.874,349.718,271.222Z"/><path class="f0a6ed3a-9127-47d0-aefc-c7124981038d" d="M532.956,200.059c7.013,8.049,33.808-29.522,28.893,16.376S547.5,316.069,534.021,351.528C540.544,307.135,552.3,255.3,532.956,200.059Z"/>
+                </svg>
+              </div>
+              <div class="content">
+                <span class="header">Louise</span>
+                <div class="meta">
+                  <span class="date">
+                    <p>Age: 17</p>
+                    <p>Occupation: Student at the local high school</p>
+                    <p>Personality: Shy, smart, determined, funny</p>
+                  </span>
+                </div>
+                <div class="description">
+                  <b>Goal</b>
+                  <p>At school, Louise doesn’t have many friends. She’s always on her phone. She’s very active on social media, has thousands of followers on instagram and twitter, as well as on facebook. She’s always making new posts, uploading photos and sharing articles. She found that she uses her phone to connect with people and make a lot of friends online. She always reaches out for her phone when she finds herself in an awkward situation.Louise spends 8 hours a day on her phone and her goal is to reduce her smartphone usage.</p>
+                </div>
+              </div>
+              <div class="extra content">
+                <span>
+                  <b>Pain points</b>
+                  <ul>
+                    <li>Louise lacks motivation for using her phone less.</li>
+                    <li>Louise relies on her phone, she has a lot of virtual relationships and online friends, which is taking a lot of her time and preventing her from making friends in real life.</li>
+                    <li>Louise is often distracted by her phone when she’s studying. She gets a lot of notifications about people messaging her or commenting and liking her posts.</li>
+                  </ul>
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="column">
+            <div class="ui card">
+              <div class="image">
+                <svg id="e7a66112-2b4a-4adb-ac38-f19bdd4ad2fd" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 776.471 713.235"><defs><style>.a8608ea7-4c0f-40d8-a996-499157276918{fill:#1b8fc1;}.a0c717b7-b917-49f9-b39e-99c7f89e91b2,.a536dae1-e6b3-49e1-9798-f4e03ab9e0cb,.a8608ea7-4c0f-40d8-a996-499157276918,.ae560c91-39f6-4338-8a06-73ab83a47e14,.b5899d6f-5a25-47a0-ba38-8159ecd3d792,.bad3f9fe-c401-4722-8083-74b56e1bfa54,.beb13491-0f5b-4e36-a075-4cb3b6bbe940,.e3b27d02-017f-4e28-9e12-6babc7825859,.ed89bcb6-c6fe-4a52-900e-b600ef0d6f52,.f213d452-e2e3-4067-a522-802c603f7139,.f4041f12-8a4e-4ac1-8716-018c4a6ee1b7,.f429d0a0-031b-47b8-8dbb-3c2565919017{fill-rule:evenodd;}.e3b27d02-017f-4e28-9e12-6babc7825859{fill:#0995d3;}.a536dae1-e6b3-49e1-9798-f4e03ab9e0cb{fill:#f4b67e;}.f429d0a0-031b-47b8-8dbb-3c2565919017{fill:#128bcc;}.ed89bcb6-c6fe-4a52-900e-b600ef0d6f52{fill:#057bb5;}.beb13491-0f5b-4e36-a075-4cb3b6bbe940{fill:#2ba5de;}.f213d452-e2e3-4067-a522-802c603f7139{fill:#f5bf84;}.bad3f9fe-c401-4722-8083-74b56e1bfa54{fill:#f8ca97;}.ae560c91-39f6-4338-8a06-73ab83a47e14{fill:#be9140;}.a0c717b7-b917-49f9-b39e-99c7f89e91b2{fill:#3e3c3b;}.f4041f12-8a4e-4ac1-8716-018c4a6ee1b7{fill:#d6825c;}.b5899d6f-5a25-47a0-ba38-8159ecd3d792{fill:#e5b17d;}</style></defs><title>avatar3</title><polygon class="a8608ea7-4c0f-40d8-a996-499157276918" points="340.044 533.391 338.891 496.275 456.084 496.261 454.977 532.223 340.044 533.391"/><path class="e3b27d02-017f-4e28-9e12-6babc7825859" d="M319.222,609.8c-3.739-2.8-87.237-42.113-87.237-42.113-37.169,12.264-45.507,95.729-49.289,144.892h88.809Z"/><path class="e3b27d02-017f-4e28-9e12-6babc7825859" d="M467.2,609.8c3.736-2.8,87.234-42.113,87.234-42.113,37.169,12.264,45.507,95.729,49.29,144.892h-88.81Z"/><path class="a536dae1-e6b3-49e1-9798-f4e03ab9e0cb" d="M393.211,476.2H354.018v24.743c.024,15.377-2.538,12.18-16.9,20.172,0,0-13.855,11.363-18.074,12.71,17.42,56.069,31.414,114.624,65.459,165.2h20.222c34.045-50.58,45.237-109.135,62.654-165.2-4.218-1.347-18.072-12.71-18.072-12.71-14.362-7.992-16.924-4.8-16.9-20.172V476.2Z"/><path class="f429d0a0-031b-47b8-8dbb-3c2565919017" d="M396.714,612.354s-12.228-16.125-17.858-25.273c-17.02-27.641-41.2-65.453-41.757-65.762-20.893,9.523-97.066,39.366-105.6,46.756,6.922,15.148,17.418,77.494,26.495,144.5H528.428c9.077-67.007,19.57-129.353,26.5-144.5-8.532-7.39-84.708-37.233-105.6-46.756-.522.292-15.637,39.246-33.2,65.748C408.832,598.06,396.714,612.354,396.714,612.354Z"/><path class="ed89bcb6-c6fe-4a52-900e-b600ef0d6f52" d="M356.644,555.144c2.1,0,13.917,1.871,13.917,1.871l8.3,30.066-29.685-13.716Z"/><path class="beb13491-0f5b-4e36-a075-4cb3b6bbe940" d="M338.891,496.275l31.67,60.74s-32.6,32-32.135,30.6S323.8,529.6,324.922,526.6,338.891,496.275,338.891,496.275Z"/><path class="ed89bcb6-c6fe-4a52-900e-b600ef0d6f52" d="M438.331,555.131c-2.1,0-13.915,1.87-13.915,1.87l-8.3,30.066,29.687-13.716Z"/><path class="beb13491-0f5b-4e36-a075-4cb3b6bbe940" d="M456.084,496.261,424.416,557s32.6,32,32.134,30.6,14.629-58.014,13.506-61.012S456.084,496.261,456.084,496.261Z"/><path class="f213d452-e2e3-4067-a522-802c603f7139" d="M494.268,295.878c-5.612,29.2,13.29,53.52,42.236,58.761s56.921-10.591,62.517-39.8-13.289-57.127-42.223-62.365S499.87,266.662,494.268,295.878Z"/><path class="f213d452-e2e3-4067-a522-802c603f7139" d="M292.376,295.878c5.607,29.2-13.29,53.52-42.231,58.761s-56.924-10.591-62.523-39.8,13.293-57.127,42.227-62.365S286.774,266.662,292.376,295.878Z"/><path class="bad3f9fe-c401-4722-8083-74b56e1bfa54" d="M537.714,110.533c-28.251-38.379-72.305-63.582-119.082-65.441l-2.428-.1.055-1.829-23.048.915-23.046-.915.047,1.829-2.416.1c-46.784,1.859-90.836,27.062-119.084,65.441-28.273,38.418-32.03,86.8-29.8,133.134,5.731,119.054,16.378,252.392,174.809,253.719,158.908,1.328,168.075-135.51,173.8-253.719C569.737,197.334,565.987,148.951,537.714,110.533Z"/><path class="ae560c91-39f6-4338-8a06-73ab83a47e14" d="M236.181,282c2.1-43.877,2.658-123.247,41.082-123.247.982,0,116.713-47.958,249.976-47.958,30.674,0,38.284,87.129,38.879,144.46.466,49.37-8.805,72.16-5.224,73.691,4.187,1.791,21.274-26.864,21.225-96.486-.032-31.44-.814-80.2-28.2-126.279-9.632-16.214-16.013-35.783-35.868-49.057-46.894-31.365-147.136-24.2-201.106-6.451-149.282,49.136-96.182,277.661-91.358,277.2C231.451,327.305,235.892,288.057,236.181,282Z"/><path class="ae560c91-39f6-4338-8a06-73ab83a47e14" d="M411.807,85.234c18.686-.934,110.165,23.605,110.165,23.605-68.3,67.9-179.2,113.431-275.557,95.531,0,0,43.917-28.03,40.646-25.228s-40.809,10.951-53.728,9.344-12.288-6.3-12.288-6.3C295.881,113.184,293.944,113.851,411.807,85.234Z"/><path class="a0c717b7-b917-49f9-b39e-99c7f89e91b2" d="M372.6,264.642c-1.5-1.717-5.917-7.121-12.669-9.555-31.728-11.429-119.46-6.692-142.792-.86-3,.753-3.328.644-3.651,2.685s-.43,14.062.536,15.889,5.585,2.577,9.663,8.588c7.314,10.776,6.8,49.9,24.27,68.435,18.091,19.2,86.664,19.9,105.215-5.666,12.253-16.888,18.324-35.673,24.9-53.749,3.973-4.078,7.409-4.4,10.521-4.831a32.167,32.167,0,0,1,9.233,0c3.113.429,6.548.753,10.521,4.831,6.575,18.076,12.646,36.861,24.9,53.749,18.551,25.568,87.124,24.862,105.214,5.666,17.47-18.535,16.956-57.659,24.268-68.435,4.081-6.011,8.7-6.764,9.663-8.588s.86-13.851.536-15.889-.644-1.932-3.651-2.685c-23.33-5.832-111.062-10.569-142.789.86-6.753,2.434-11.166,7.838-12.669,9.555-2.647,1.021-6.948,1.5-20.609,1.2-13.662.3-17.963-.182-20.609-1.2Zm164.8-4.186h0a14.416,14.416,0,0,1,11.488,9.448c3.435,8.805,1.931,28.88.107,38.758s-6.118,25.338-12.239,32.96c-18.93,23.582-81.617,20.777-97.233.468-12.021-15.639-32.57-62.075-7.445-75.3,21.528-11.331,83.375-13.654,105.322-6.334Zm-288.377,0h0c21.949-7.32,83.8-5,105.323,6.334,25.124,13.225,4.578,59.661-7.446,75.3-15.616,20.309-78.3,23.114-97.232-.468-6.121-7.622-10.415-23.082-12.24-32.96s-3.328-29.953.108-38.758A14.414,14.414,0,0,1,249.022,260.456Z"/><path class="a0c717b7-b917-49f9-b39e-99c7f89e91b2" d="M304.674,319.729a13.549,13.549,0,1,0-13.548-13.548A13.573,13.573,0,0,0,304.674,319.729Z"/><path class="a0c717b7-b917-49f9-b39e-99c7f89e91b2" d="M481.746,319.729A13.549,13.549,0,1,0,468.2,306.181,13.573,13.573,0,0,0,481.746,319.729Z"/><path class="f4041f12-8a4e-4ac1-8716-018c4a6ee1b7" d="M458.4,405.235c-12.444,15.926-35.3,26.6-61.447,26.6s-49-10.677-61.444-26.6c15.164,10.959,36.375,22.048,60.745,22.048S443.232,416.2,458.4,405.235Z"/><path class="b5899d6f-5a25-47a0-ba38-8159ecd3d792" d="M365.914,386.75c-.161-.052-.188-.183-.048-.41a2.7,2.7,0,0,1,1.1-1.976c5.565-10.714,16.513-41.962,21.53-76.333,5.5.337-5.451,58.5-10.165,72.383a100.321,100.321,0,0,1,16.846-1.316c16.192,0,29.317,3.241,29.317,7.242s-13.125,7.241-29.317,7.241C379.549,393.581,366.774,390.558,365.914,386.75Z"/><path class="ae560c91-39f6-4338-8a06-73ab83a47e14" d="M256.8,236.936c-4.381-7.506,19.094-11.045,42.9-10.872,39.926.291,61.282,19.8,42.1,18.971C327.464,244.411,258.086,239.134,256.8,236.936Z"/><path class="ae560c91-39f6-4338-8a06-73ab83a47e14" d="M528.274,236c4.381-7.507-19.093-11.046-42.9-10.872-39.926.289-61.281,19.805-42.1,18.97C457.613,243.475,526.991,238.2,528.274,236Z"/></svg>
+              </div>
+              <div class="content">
+                <span class="header">Michael</span>
+                <div class="meta">
+                  <span class="date">
+                    <p>Age: 19</p>
+                    <p>Occupation: Arts Student at Concordia University, Gamer</p>
+                    <p>Personality: awkward, introvert, shy</p>
+                  </span>
+                </div>
+                <div class="description">
+                  <b>Goal</b>
+                  <p>Michael is addicted to his online games. He often finds himself choosing staying home and playing games on his phone over going out with his friends or studying. His grades started dropping and his goal is to reduce his smartphone usage and stop being addicted to his online games to improve his grades and his overall GPA.</p>
+                </div>
+              </div>
+              <div class="extra content">
+                <span>
+                  <b>Pain Points</b>
+                  <ul>
+                    <li>Michael finds himself reaching for his phone and starting to play games without even thinking about it. His behaviour has become compulsive and he’s not always aware of his actions.</li>
+                    <li>Michael finds that tracking his screen time and checking his settings everyday isn’t very helpful and it involves a lot of steps.</li>
+                    <li>It’s hard to fight an addiction alone. Michael is trying to find a group of people who are going through the same thing.</li>
+                  </ul>
+                </span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <h1>Use case scenarios</h1>
+      <p><strong>Use case 1:</strong> The user wants to take a small break while studying</p>
+
+      <p>The app will include a setting to stop notifications while the user is studying to not further distract him. He will only receive a notification if ends up spending more time than he intended to during his break.</p>
+
+      <p><strong>Use case 2:</strong> The user is starting to get annoyed by his usage limitations on the phone</p>
+
+      <p>Getting more rewards by participating in more challenges with friends will push the user to keep respecting his usage limit.</p>
+
+      <p><strong>Use case 3:</strong> The user just started downloading the app and is not sure about starting to reduce his usage. He also is not too tech savvy</p>
+
+      <p>With the easily customized app setup, the simplistic UI and the challenges, the user will have an enjoyable experience trying the app. The measurable progress will also allow the user how much his usage has improved and will not require any effort to figure out how the app works</p>
+
+
+      <h1>Related Products</h1>
+      <p>The two most well known alternatives are Apple’s screen time and Google’s digital well being. These tools are baked right into each operating system and aim to help users to limit how much they’re using their phones. </p>
+      <p>Both Apple and Google show phone usage by app in a visual way to let you see how much time you spend with your phone. With Digital Wellbeing, you’ll see a pie chart as soon as you open it, with the amount of time, unlocks, and notifications received all front and center. With Screen time, the user is first greeted with a daily average in the form of a graph for the current week. Then the user can have a more detailed view of his activity just by pressing the “See All Activity” button. This allows the user to then see usage by category for the current week, the most used apps, the number of pickups per day and the amount of notifications. Notifications are also broken down by app and time, and it also shows the longest time that you used your phone without putting it down.</p>
+      <p>These tools also allow you to limit how much you use your apps. With Android, all you need to do is enter your Dashboard and tap an app to set a timer. Once the limit is reached, the app icon will be grayed out and if you try to open it, it will let you know that the timer has run out. Apple also allows timers, but offers more options to set limits. Once you tap the App Limits tab, you’ll be able to set limits for categories of apps (Social networking, entertainment, games, etc). You can even choose the apps you want to limit that are inside these categories, as well as set a timer for individual apps outside these categories and also websites. You can also set apps that are always allowed, block inappropriate content and privacy restrictions. Finally, there’s also a feature called Downtime that shuts down all apps except for the ones you set as always allowed. Once the limit is reached, the limited app icons will dim, and a tiny hourglass will appear next to the app name. If the user tries to open the app anyways he will be greeted by a full screen prompt asking him if he wants to just quit the app, ignore the limit for 15 more minutes or for the whole day.</p>
+      <p>Apple and Google have both Do Not Disturb tools that allow the user to set a period of time where he does not want to receive any notifications or calls. Google’s equivalent of Do Not Disturb called Wind Down goes even further and grays out the screen to help the user fall asleep.</p>
+      <p>While these tools offer a lot of options as to how the user would like to limit their usage, the setup process takes too much time and is too intricate for regular users. These are also punitive and restrictive methods where most users end up either removing all app limits out of frustration. These limits are also not dynamic and rely on the user to set his own limits, people’s schedules and usages are not always the same throughout the week and vary frequently.</p>
+      <p>The other problem is that everyone uses applications differently. While Facebook and Twitter might distract users it is also very helpful for messaging when you just want to contact someone instead of emailing. These tools would count this time on twitter and then limit access to them.</p>
+      <p>Nowadays, we use smartphones to do almost everything: to schedule events, to work,  to communicate with friends and family, to read the news and watch videos. They are powerful tools that help us  manage our daily lives. Users don’t like to be forcibly interrupted while they are on specific workflow. Finally it is also too easy to avoid these limits by just a press of a button to ignore the limit for 15 minutes or for a day.</p>
+      <p>There are also apps like Space, Flipd and Forest that lets users track their daily phone usage and screen time. These apps also block access to specific apps that the user sets and they rely on emotional attachment where you have to take care of your own tree in the Forest app. They also get you to challenge your friends to see who can reach his goals the most (Space). These apps again rely on the user to set his own limits and have the same problems as the built in tools that Apple and Google have implemented. They try to add challenges, achievements or make the user emotionally attached but as long as users do not have the motivation to reduce his usage these extra features do not have any impact on the users. Finally, for these apps to work on iOS users have to install profiles which are reserved for enterprise and can be used by the company to collect data on their users which is a breach of the user’s privacy.</p>
+
+      <h1>Products Comparative</h1>
+      <p>Instead of focusing on blocking and restricting access to apps, our system is going to focus on positive reinforcement, there are no limits or restrictions, the app will focus on motivating the user to spend less time on their phone, make him aware of how much time he saved each day and how it’s improving his life. The setup process for screen time tools are usually time consuming and confusing for regular users so our app will focus on a short guided setup process that is customized to each user depending on his usage and occupation. The app will also be overall easy to navigate and the usage data will be illustrated in a simple way.</p>
+      <p>Our app is also going to tell the user explicitly what data we will need access to and what it will be used for to respect their privacy. Another problem with these apps is that they do not focus on motivating the user. They end up getting frustrated and drop any limits that they sent. By adding progress rings and a way to challenge the user we intend on keeping him committed to his goal and to share their progress with friends or the community he is in. Users will also get a summary of their usage so they have a better idea of their daily usage.</p>
+      <p>The app will help our personas in the following ways:</p>
+      <p>For Marc-Antoine, the student who get easily distracted and loses track of time when using the internet, the app will send him notifications after spending an extensive time on the app. These notifications will not annoy the user but will just make him aware if he goes over the limit in each app. Even with no restrictions, with the easy setup process and the built in challenges and rewards will keep him committed to his goal of reducing his usage.</p>
+      <p>With the motivational aspect of our app and the notifications Louise will be more aware of her usage, stop scrolling through social networks and start taking her life into her own hands.</p>
+      <p>Finally, Michael gets most of his entertainment by playing games and so by implementing the progress rings and the challenges with friends, Micheal will enjoy reducing all of his usage using the app and see it more as a game.</p>
+
+      <h1>High Level Design</h1>
+      <img class="ui large image" src="./public/images/diagram.png">
+      <p>For this project no pre-existing hardware tools are required. The interface is app based. Once signed up the user will be asked a sequence of questions to determine the optimal profile for them. The user can then set their unlock frequency and phone usage goals. There will be a notifications panel where the user can schedule and set certain notification profiles and set an app exclusion list. On "focus mode" the app will block all notifications for the time selected and push them all once this focus period is over. Additionally the user can add friends and view their progress. The user will be able to challenge his friends and be rewarded for spending less time on his phone.</p>
+
+      <h1>Feasability Study</h1>
+      <h4>Team Expertise:</h4>
+      <p><u>Lea Akkari:</u> Java, C, HTML, CSS, Python, VHDL, Javascript</p>
+      <p><u>Abed Atassi:</u> Java, C, Git, HTML, Bash, Python, C++, JavaScript, React, SCSS, Swift, Vue.js, Restful Webservices</p>
+      <p><u>Mark Kuhn:</u> C, Java, Javascipt, HTML, CSS, JQuery, NodeJS, MongoDB</p>
+
+      <p>
+      To ensure the achievability of this project, the tasks have been split up to match each team members skills. We will have to team members working on the back-end of the app and one team member working on the front-end/interface of the app. The interface is crucial since it will have to motivate the user to use the app.
+      Getting the users app usage will be implemented using Androids API.
+      We will not be needing any hardware developments for our project since our app can be used on any android device.
+      To ensure we are on schedule, every user will be logging their hours and we will be meeting as a team weekly. Github will be user for version control.
+      We are confident that 20-25 hours per team member will suffice to finish this project.
+      </p>
+
+    </div>
+
+    <script src="./public/javascripts/index.js"></script>
+  </body>
+</html>
