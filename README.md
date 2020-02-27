@@ -1,4 +1,5 @@
-# ECSE 424: Human Computer Interaction - Fall 2019 - Taught By Prof. Cooperstock.
+# ECSE 424: Human Computer Interaction
+### Fall 2019 - Taught By Prof. Cooperstock.
 
 ## Project Overview
 Throughout the course, you will be involved in a group project: conceptualizing, designing, implementing, testing, and refining a system that will evolve from a paper description, to a simple prototype, and finally to a functional system.
