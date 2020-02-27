@@ -23,4 +23,10 @@ This repo contains the code for the website we developped during this course tha
 * Alpha System
 * Beta System
 
+You can find the full website here: [Our Website](http://www.cim.mcgill.ca/~jer/courses/hci/project/2019/www.cs.mcgill.ca/~mkuhn/HCI/index.html)
+
+Credentials are : 
+User
+Hcihealthy
+
 You can find the code for the app created in the following repository : 
