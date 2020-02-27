@@ -29,4 +29,4 @@ Credentials are :
 User
 Hcihealthy
 
-You can find the code for the app created in the following repository : 
+You can find the code for the app created in the following repository : [TimeQuest](https://github.com/leakkari/TimeQuest)
